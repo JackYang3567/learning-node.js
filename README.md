@@ -1,5 +1,5 @@
 ## learning-node.js
-learning node.js
+Node.js可让你成为全栈工程师（Full Stack Engineer），
 
 ### Chapter 1: Introduction
 * 了解Node.js
@@ -11,8 +11,10 @@ learning node.js
 
 
 ### Chapter 2: Process data I/O in Node.js
-
-
+* 处理JSON
+* 使用Buffer模块缓冲数据
+* 使用Stream模块来传送数据
+* 使用Zlib压缩与解压数据
 
 
 ### Chapter 3: Use events, listeners, timers, and callbacks in Node.js
