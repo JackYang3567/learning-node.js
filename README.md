@@ -2,7 +2,12 @@
 learning node.js
 
 ### Chapter 1: Introduction
-
+* 了解Node.js
+* 安装Node.js
+* 了解NVM
+* Node包管理器
+* Package.json
+* 将数据写入控制台
 
 
 ### Chapter 2: Process data I/O in Node.js
