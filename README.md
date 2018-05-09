@@ -1,7 +1,7 @@
 ## learning-node.js
 Node.js可让你成为全栈工程师（Full Stack Engineer），
 
-### Chapter 1: Introduction
+### Chapter 1: Node.js的基本概念
 * 了解Node.js
 * 安装Node.js
 * 了解NVM
@@ -10,7 +10,7 @@ Node.js可让你成为全栈工程师（Full Stack Engineer），
 * 将数据写入控制台
 
 
-### Chapter 2: Process data I/O in Node.js
+### Chapter 2: 在Node.js中处理数据I/O
 * 处理JSON
 * 使用Buffer模块缓冲数据
 * 使用Stream模块来传送数据
