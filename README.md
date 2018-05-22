@@ -41,5 +41,8 @@ Node.js可让你成为全栈工程师（Full Stack Engineer），
 
 
 ### Chapter 8: Other modules in Node.js
+- 使用os模块
+- 使用util模块
+- 使用dns模块
 
 
