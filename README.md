@@ -10,7 +10,7 @@ Node.js可让你成为全栈工程师（Full Stack Engineer），
 * 将数据写入控制台
 
 #### Node.js小测试
-##### 1、 以下哪一项将同步检查文件、目录是否存在？(   )
+##### 1、 以下哪一项将同步检查文件/目录是否存在？(   )
 - A、 fs.exists()    
 - B、 fs.existsSync()   
 - C、 fs.checkFileSync()  
@@ -113,27 +113,37 @@ TTY file descriptors
 - C、 fs.createWriteStream()
 - D、 fs.writeStream()
 
-##### 17、 
-- A、 
-- B、 
-- C、 
-- D、 
+##### 17、 下面的代码是做什么的？  （     ）
+<code>
+  var http = require('http');
+  var fs = require('fs');
+  file = fs.createWriteStream('file.png');
+  var request = http.get('http://path/to/file.png',function(response){
+  response.pipe(file);
+ })
+ </code>
+ 
+- A、 It creates an HTTP GET request and pipes its response into a writeable file stream.
+- B、 It creates an HTTP GET request, and synchronously pipes its response into a writeable file stream.
+- C、 It creates an HTTP POST request and pipes its response into a readable file stream.
+- D、 It creates an HTTP POST request and pipes its response into a writeable file stream.
 
-##### 18、 
-- A、 
-- B、 
-- C、 
-- D、 
+##### 18、 以下哪条语句是关于Node.js中的子进程模块的？ （    ）
+- A、 It is not prossible to stream data through a child process' stdin,stdout,and stderr in a fully non-blocking way.
+- B、 Child processes always have two streams associated with them.
+- C、 require('child_process').spawn() can be used to create a child process.
+- D、 require('child_process').fork() can be used to create a child process.
 
-##### 19、 
-- A、 
-- B、 
-- C、 
-- D、 
-##### 20、 
-- A、 
-- B、 
-- C、 
-- D、 
+##### 19、 以下哪个将打开文件，然后一次读取其内容一行？（     ）
+- A、 fs.readFileStream()
+- B、 fs.readFile()
+- C、 fs.createReadStream()
+- D、 fs.createFileStream()
+
+##### 20、 哪个Node.js模块可以用来获取运行程序的服务器的IP地址？（     ）
+- A、 util
+- B、 os
+- C、 dns
+- D、 net
 
 
