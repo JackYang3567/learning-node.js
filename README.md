@@ -40,6 +40,6 @@ Node.js可让你成为全栈工程师（Full Stack Engineer），
 
 
 
-### Chapter 8: Other modules in Node.js
+### <a href="/tree/08-other-modules">Chapter 8: Other modules in Node.js</a>
 
 
